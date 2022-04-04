@@ -1,10 +1,33 @@
 .cardContainer {
   background-color: hsl(217, 19%, 24%);
+  padding: 1rem 0 3rem;
+  text-align: center;
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
 }
-
-h3 {
+.diceContainer {
+  background-color: hsl(150, 100%, 66%);
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -25px;
+  right: 44.7%;
+}
+.dice {
+  border-radius: 10%;
+  padding: 1rem;
+}
+h4 {
   color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 3px;
 }
 p {
   color: hsl(193, 38%, 86%);
+  font-size: 22px;
+  padding: 0 4rem;
 }
