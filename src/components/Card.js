@@ -32,7 +32,7 @@ function Card() {
   return (
     <div className='cardContainer'>
       {isLoading ? (
-        <p>Loading...</p>
+        <p style={{ color: 'hsl(150, 100%, 66%)' }}>Loading...</p>
       ) : (
         <>
           <h4 className='advice'>Advice #{randomAdvice.id}</h4>
