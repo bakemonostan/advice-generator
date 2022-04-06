@@ -8,9 +8,10 @@
 }
 .diceContainer {
   background-color: hsl(150, 100%, 66%);
+  box-shadow: 1px -1px 1px 1px hsl(150, 100%, 66%);
   width: 56px;
   height: 56px;
-  border-radius: 50px;
+  border-radius: 50%;
   position: absolute;
   bottom: -25px;
   right: 44.7%;
@@ -18,6 +19,10 @@
 .dice {
   border-radius: 10%;
   padding: 1rem;
+}
+
+.diceContainer:hover {
+  box-shadow: 1px -1px 18px 5px hsl(151, 81%, 79%);
 }
 h4 {
   color: hsl(150, 100%, 66%);
